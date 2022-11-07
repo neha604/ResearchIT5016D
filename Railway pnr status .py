@@ -24,14 +24,14 @@ while restart != ('N','NO','n','no'):
 		people = int(input("\nEnter no. of Ticket you want : "))
 		name_l = []
 		age_l = []
-		sex_l = []
+		gender_l = []
 		for p in range(people):
 			name = str(input("\nName : "))
 			name_l.append(name)
 			age  = int(input("\nAge  : "))
 			age_l.append(age)
-			sex  = str(input("\nMale or Female : "))
-			sex_l.append(sex)
+			gender  = str(input("\nMale or Female : "))
+			gender_l.append(gender)
 
 		restart = str(input("\nDid you forgot someone? y/n: "))
 		if restart in ('y','YES','yes','Yes'):
@@ -43,5 +43,5 @@ while restart != ('N','NO','n','no'):
 				print("Ticket : ",p)
 				print("Name : ", name_l[x])
 				print("Age  : ", age_l[x])
-				print("Sex : ",sex_l[x])
+				print("Gender : ",gender_l[x])
 				x += 1
