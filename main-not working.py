@@ -1,9 +1,13 @@
+# Starting with declaring global variables in hope they will work.
+
+
 ticket_submit=0
 ticket_resolved=0
 ticket_reopen=0
 ID=0
 description=" "
 
+# could not work out how can "Password change" can be extracted from a string so it can be passed through if condition.
 
 def info(self):
     description.split()=description
@@ -21,9 +25,7 @@ def info(self):
         print("your new password is", p)
 
 
-
 def information(self,StaffID,name,email,description):
-
 
         global description
 
@@ -33,23 +35,8 @@ def information(self,StaffID,name,email,description):
    description: str = input("description of the issue ")
 
 
-
-
-
-
-
-
-
-
-
-
 Y=ID[0:2]
 Z=tcname[0:3]
 p=Y+Z
 print("your new password is" ,p)
-
-
-
-
-
 
